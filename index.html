@@ -6,156 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion</title>
-    <style>
-        #logo {
-            width: 508px;
-            height: 50px;
-        }
-
-        .header {
-            display: grid;
-            min-height: 80px;
-            grid-template-columns: 1fr 4fr;
-            align-items: center;
-        }
-
-        .navigation {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-        }
-
-        .nav_font {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 150%;
-            color: #1A1A1A;
-        }
-
-        .button_header {
-            width: 110px;
-            height: 50px;
-            border: 1px solid #DA5D1A;
-            border-radius: 5px;
-
-        }
-
-        .sct1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            background-image: url("assets/images/Rectangle\ 218.png");
-            height: 707px;
-            /* width: 1480px; */
-            /* left: 60px; */
-            /* top: 147px; */
-            border-radius: 5px;
-            margin: 0 80px 0 80px;
-            display: grid;
-        }
-
-        .sct1_gr1 {
-            padding: 100px 0 0 150px;
-            display: grid;
-            grid-template-rows: 1fr 4fr 2fr 2fr;
-            height: 80%;
-        }
-
-        .sct1_gr1_font1 {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 32px;
-            background: linear-gradient(270deg, #DA5D1A 0%, #FF7D38 97.97%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .sct1_gr1_font2 {
-            font-family: 'Kayak Sans';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 61px;
-            color: #010405;
-        }
-
-        .sct1_img {
-            padding: 30px 0 0 0;
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(6, 1fr);
-            background-image: url("assets/images/sct1_img.png");
-            width: 552px;
-            height: 500px;
-            justify-self: end;
-            background-color: rgba(251, 127, 255, 0.2);
-            border-radius: 15px;
-        }
-
-        .sct1_img_a1 {
-            grid-area: 1 / 1 / 3 / 3;
-        }
-
-        .sct1_img_a2 {
-            grid-area: 2 / 5 / 4 / 7;
-        }
-
-        .sct1_img_a3 {
-            grid-area: 5 / 4 / 7 / 7;
-        }
-
-        .sct1_gr1_btn {
-            width: 151px;
-            height: 57.83px;
-            background: #DA5D1A;
-            border-radius: 5px;
-        }
-
-        .sct3 {
-            /* width: 80vw; */
-            /* height: 80vh; */
-            /* padding: 30px 0 0 150px; */
-            padding-top: 15px;
-            display: grid;
-            grid-gap: 15px;
-            height: 500px;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 1fr 1fr;
-        }
-
-        .sct3_1 {
-            grid-area: 1 / 1 / 3 / 3;
-            background-image: url("assets/images/one.jpg");
-        }
-
-        .sct3_2 {
-            grid-area: 1 / 3 / 2 / 6;
-            background-image: url("assets/images/two.jpg");
-        }
-
-        .sct3_3 {
-            grid-area: 2 / 3 / 3 / 4;
-            background-image: url("assets/images/three.jpg");
-        }
-
-        .sct3_4 {
-            grid-area: 2 / 4 / 3 / 6;
-            background-image: url("assets/images/four.jpg");
-        }
-    </style>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header class="header">
         <object id="logo" data="assets/images/logo.svg" type="image/svg+xml">Fashion</object>
         <nav class="navigation nav_font">
-            <ul><a href="https://www.figma.com/file/maN0uiwgusXiHnFlmntRye/NewFashionlandingpageuplabs?node-id=0%3A1"
-                    target="_blank">Home</a></ul>
-            <ul><a href="https://www.figma.com/file/maN0uiwgusXiHnFlmntRye/NewFashionlandingpageuplabs?node-id=0%3A1"
+            <ul><a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d"
+                    target="_blank">Home</a>
+            </ul>
+            <ul><a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d"
                     target="_blank">New Collection</a></ul>
-            <ul><a href="https://www.figma.com/file/maN0uiwgusXiHnFlmntRye/NewFashionlandingpageuplabs?node-id=0%3A1"
+            <ul><a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d"
                     target="_blank">Winter</a></ul>
-            <ul><a href="https://www.figma.com/file/maN0uiwgusXiHnFlmntRye/NewFashionlandingpageuplabs?node-id=0%3A1"
+            <ul><a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d1"
                     target="_blank">Product</a></ul>
             <button class="button_header">Log In</button>
         </nav>
@@ -165,7 +31,8 @@
             <div class="sct1_gr1">
                 <div class="sct1_gr1_font1">New Collection</div>
                 <div class="sct1_gr1_font2"> Find the new collection in this winter season.</div>
-                <div>New season and new style only for you in our autumn collection. Fall in love with up to 70% off in
+                <div class="sct1_gr1_font3">New season and new style only for you in our autumn collection. Fall in love
+                    with up to 70% off in
                     Winter collection.</div>
                 <div><button class="sct1_gr1_btn">Get started</button></div>
             </div>
@@ -175,19 +42,164 @@
                 <div class="sct1_img_a3"><img src="assets/images/hb.jpg" alt="Haylie Baptista"></div>
             </div>
         </section>
-        <section></section>
+        <section class="sct2">
+            <div class="sct2_1 sct2_1_font1">Why you
+                Picking Us.
+                <div class="sct2_1_font2">Winter is the coldest season of the year in polar and temperate zones. It
+                    occurs after autumn and
+                    before
+                    spring each year.</div>
+            </div>
+            <div class="sct2_2 sct2_2_font1">
+                <div><img src="assets/images/free_shipping.png" alt="free_shipping">
+                </div>
+                Free Shipping
+                <div class="sct2_2_font2">The ultimate clothing to see the world in. Be exclusive, Be Devine, Be
+                    yourself.</div>
+            </div>
+            <div class="sct2_3 sct2_2_font1">
+                <div><img src="assets/images/secured_payment.png" alt="secured_payment">
+                </div>
+                Secured Payment
+                <div class="sct2_2_font2">The ultimate clothing to see the world in. Be exclusive, Be Devine, Be
+                    yourself.</div>
+            </div>
+            <div class="sct2_4 sct2_2_font1">
+                <div><img src="assets/images/24_7.png" alt="support_24_7">
+                </div>
+                Support 24/7
+                <div class="sct2_2_font2">The ultimate clothing to see the world in. Be exclusive, Be Devine, Be
+                    yourself.</div>
+            </div>
+            <div class="sct2_5"><button class="sct2_btn">See More</button></div>
+        </section>
         <section class="sct3">
             <div class="sct3_1"></div>
             <div class="sct3_2"></div>
             <div class="sct3_3"></div>
             <div class="sct3_4"></div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="sct4">
+            <div class="sct4_gr1">
+                <div class="sct4_gr1_area1">Our Product</div>
+                <div class="sct4_gr1_area2 sct4_gr1_area2_grid">
+                    <div>
+                        <select class="sct4_select">
+                            <option value="first">Mens</option>
+                            <option value="second" selected="selected">Womans</option>
+                            <option value="third">Kids</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="sct4_select">
+                            <option value=" first">Mens</option>
+                            <option value="second" selected="selected">Womans</option>
+                            <option value="third">Kids</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="sct4_select">
+                            <option value="first">Mens</option>
+                            <option value="second" selected="selected">Womans</option>
+                            <option value="third">Kids</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="sct4_select">
+                            <option value="first">Mens</option>
+                            <option value="second" selected="selected">Womans</option>
+                            <option value="third">Kids</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </section>
+        <section class="sct5">
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="sct5_link"><img src="assets/images/image.png" alt="Men cotton jacket"></a>
+            <div></div>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="sct5_link"><img src="assets/images/Image-2.png" alt="Winter jacket of red"></a>
+            <p class="sct5_font">Men cotton jacket</p>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="sct5_link"><img src="assets/images/Image-3.png" alt="Kids sweatshirt"></a>
+            <p class="sct5_font">Winter jacket of red</p>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="sct5_link"><img src="assets/images/image-4.png" alt="Kids jacket"></a>
+            <p class="sct5_font">Kids sweatshirt</p>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="sct5_link"><img src="assets/images/image-5.png" alt="Women brown coat"></a>
+            <p class="sct5_font">Kids jacket</p>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="sct5_link"><img src="assets/images/image-6.png" alt="Winter fluffy coat"></a>
+            <p class="sct5_font">Women brown coat</p>
+            <div></div>
+            <p class="sct5_font">Winter fluffy coat</p>
+        </section>
+        <section class="sct6">
+            <div class="sct6_grid">
+                <div>
+                    <img src="assets/images/sct6_1.png" alt="man">
+                </div>
+                <div class="sct6_grid_text sct6_grid_text_font">
+                    New season and new style only for you in our autumn col up to 70% off in Winter collection.
+                    Jakob Mango
+                </div>
+            </div>
+            <div class="sct6_grid">
+                <div>
+                    <img src="assets/images/sct6_2.png" alt="woman">
+                </div>
+                <div class="sct6_grid_text sct6_grid_text_font">
+                    New season and new style only for you in our autumn col up to 70% off in Winter collection.
+                    Haylie Saris
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="footer_area1"><img src="assets/images/logo.svg" alt="logo">
+            <p class="footer_area1_font1">Our fashion generator will help you come
+                up with the best ideas.</p>
+        </div>
+        <div class="footer_area2 footer_area2_grid">
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Menu</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Company</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Help</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">About</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Support</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Privacy policy</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Service</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Service</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Delivery service</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Marker</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Contact</a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank"
+                class="a_footer">Terms & Conditions</a>
+        </div>
+        <div class="footer_area3 footer_area3_font2">Copyright © 2021 Fashion, All rights reserved.</div>
+        <div class="footer_area4 footer_area4_grid ">
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d" target="_blank">
+                <img src="assets/images/facebook.png" alt="facebook"></a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d"
+                target="_blank"><img src="assets/images/twiter.png" alt="twitter"></a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d"
+                target="_blank"><img src="assets/images/instragram.png" alt="instagram"></a>
+            <a href="https://itgirlschool.notion.site/itgirlschool/6-04ea6e832962444886b688ce30372f4d"
+                target="_blank"><img src="assets/images/linkdin.png" alt="linkdin"></a>
+        </div>
     </footer>
 </body>
 
